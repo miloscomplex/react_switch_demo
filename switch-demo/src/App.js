@@ -14,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Our Cool Game Demo</h1>
 
       {(() => {
         switch (game) {
@@ -24,14 +25,14 @@ function App() {
           case 'won':
             return <Won handleClick={handleClick} />
           case 'lost':
-            return <Lost  handleClick={handleClick} />
+            return <Lost handleClick={handleClick} />
           default:
             return null
         }
       })()}
 
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -2,7 +2,7 @@ function Lost(props) {
 
   return (
     <div className="Lost">
-      <h1>You lost the game</h1>
+      <h2>You lost the game</h2>
       <button onClick={ () => props.handleClick('start')}>New Game</button>
     </div>
   )

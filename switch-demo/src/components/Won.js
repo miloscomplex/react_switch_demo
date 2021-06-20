@@ -2,7 +2,7 @@ function Won(props) {
 
   return (
     <div className="Won">
-      <h1>You won the game</h1>
+      <h2>You won the game</h2>
       <button onClick={ () => props.handleClick('start')}>New Game</button>
     </div>
   )

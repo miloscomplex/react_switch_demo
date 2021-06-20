@@ -2,7 +2,7 @@ function Start(props) {
 
   return (
     <div className="Start">
-      <h1>This is the start page</h1>
+      <h2>This is the start page</h2>
       <button onClick={ () => props.handleClick('playing')}>Start Game</button>
     </div>
   )
